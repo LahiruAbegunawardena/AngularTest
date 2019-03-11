@@ -1,0 +1,151 @@
+<form>
+  <div class="row">
+
+
+    <div class="form-group col-md-4">
+      <label>Absolute Owner</label>
+      <input type="text" name="aowner" class="form-control" placeholder="" [(ngModel)]="vehicleDta.absoluteOwner">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Barcode</label>
+      <input type="text" name="bcode" class="form-control"  placeholder="" [(ngModel)]="vehicleDta.barcode">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Brand</label>
+      <input type="text" name="brnd" class="form-control" placeholder="" [(ngModel)]="vehicleDta.brand">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Build Year</label>
+      <input type="text" name="b_yr" class="form-control"  placeholder="" [(ngModel)]="vehicleDta.buildYear">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Chasis Number</label>
+      <input type="text" class="form-control" name="cha"  [(ngModel)]="vehicleDta.chasisNumber">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Class of Vehicle</label>
+      <input type="text" class="form-control" name="vehCls" [(ngModel)]="vehicleDta.classOfVehicle">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Country of Origin</label>
+      <input type="text" class="form-control" name="c_ori" [(ngModel)]="vehicleDta.countryOfOrigin">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Cylinder Capacity</label>
+      <input type="text" class="form-control" name="cyl_cap" [(ngModel)]="vehicleDta.cylinderCapacity">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Email</label>
+      <input type="email" class="form-control" name="email" [(ngModel)]="vehicleDta.email.email">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Engine No</label>
+      <input type="text" class="form-control" name="eng_no" [(ngModel)]="vehicleDta.engineNumber">
+    </div>
+    <div class="form-group col-md-4">
+      <label>First Reg Data</label>
+      <input type="date" class="form-control" name="fregDt" [(ngModel)]="vehicleDta.firstRegDate">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Fuel Type</label>
+      <input type="text" class="form-control" name="fueTY" [(ngModel)]="vehicleDta.fuelType">
+    </div>
+    <div class="form-group col-md-4">
+      <label>internal ref num</label>
+      <input type="text" class="form-control" name="int_ref" placeholder=""  [(ngModel)]="vehicleDta.internalRefNum">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Make</label>
+      <input type="text" class="form-control" name="mk" [(ngModel)]="vehicleDta.make">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Mobile No</label>
+      <input type="text" class="form-control" name="mob" [(ngModel)]="vehicleDta.mobileNumber">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Model</label>
+      <input type="text" class="form-control"  name="model" [(ngModel)]="vehicleDta.model">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Odometer Reading</label>
+      <input type="text" class="form-control" name="odread" [(ngModel)]="vehicleDta.odoMeterReading">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Official MobileNo</label>
+      <input type="text" class="form-control" name="offMobile"  [(ngModel)]="vehicleDta.officialMobileNumber">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Official PhoneNo</label>
+      <input type="text" class="form-control" name="offLand" [(ngModel)]="vehicleDta.officialPhoneNum.phoneNum">
+    </div>
+    <div class="form-group col-md-4">
+      <label>OrgId</label>
+      <input type="text" class="form-control" name="orgI" [(ngModel)]="vehicleDta.orgId">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Port Entry Pass Num</label>
+      <input type="text" class="form-control"  name="portEn_pass" [(ngModel)]="vehicleDta.portEntryPassNum">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Port Entry Valid - From</label>
+      <input type="date" class="form-control"  name="portEn_from" [(ngModel)] = "vehicleDta.portEntryValidPeriod.start">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Port Entry Valid - To</label>
+      <input type="date" class="form-control" name="portEn_to" [(ngModel)] = "vehicleDta.portEntryValidPeriod.end">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Previous owner</label>
+      <input type="text" class="form-control" name="p_owner" [(ngModel)]="vehicleDta.previousOwnerDetails">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Purchased Value</label>
+      <input type="text" class="form-control" name="pval" [(ngModel)]="vehicleDta.purchasedValue">
+    </div>
+    <div class="form-group col-md-4">
+      <label>reg No</label>
+      <input type="text" class="form-control" name="regno" [(ngModel)]="vehicleDta.regNumber">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Registered address</label>
+      <input type="text" class="form-control" name="regAddr" [(ngModel)]="vehicleDta.registeredAddress">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Revenue Licence</label>
+      <input type="text" class="form-control" name="rev_lic" [(ngModel)]="vehicleDta.revenueLicense">
+    </div>
+    <div class="form-group col-md-4">
+      <label>RMV Reg no</label>
+      <input type="text" class="form-control" name="rmvreg" [(ngModel)]="vehicleDta.rmvRegNumber">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Reg Status</label>
+      <input type="text" class="form-control" name="regstat" [(ngModel)]="vehicleDta.statusWhenRegister">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Taxation class</label>
+      <input type="text" class="form-control" name="taxcls"  [(ngModel)]="vehicleDta.taxationClass">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Type of Id Document</label>
+      <input type="text" class="form-control" name="type_id" [(ngModel)]="vehicleDta.typeOfIdDocument">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Vehicle Id</label>
+      <input type="text" class="form-control" name="vid" [(ngModel)]="vehicleDta.vehicleId">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Vehicle Insurance</label>
+      <input type="text" class="form-control" name="vIns" [(ngModel)]="vehicleDta.vehicleInsurance">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Warranty period</label>
+      <input type="text" class="form-control" name="wper" [(ngModel)]="vehicleDta.warrantyPeriod">
+    </div>
+    <div class="form-group col-md-4">
+      <label>Weight unladen Gross</label>
+      <input type="text" class="form-control" name="wug" [(ngModel)]="vehicleDta.weightUnladenGross">
+    </div>
+  </div>
+  <button type="button" class="btn btn-info" (click)="sbmitIt()">Submit</button>
+</form>
